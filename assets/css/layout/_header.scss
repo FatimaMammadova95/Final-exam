@@ -1,0 +1,142 @@
+header {
+  #header-up {
+    .header-up {
+      @include flexbox;
+      padding: 20px 0;
+      .logo {
+        font-size: 36px;
+        a {
+          color: black;
+        }
+      }
+      nav {
+        ul {
+          @include flexbox;
+          gap: 50px;
+          li {
+            a {
+              @include flexbox(center, center);
+              gap: 20px;
+              color: black;
+              i {
+                font-size: 24px;
+              }
+              .light-text {
+                color: rgb(154, 153, 153);
+                padding-bottom: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #header-down {
+    background-color: #343a40;
+    .header-down {
+      @include flexbox;
+      padding: 20px 0;
+      nav {
+        .nav-ul {
+          @include flexbox;
+          gap: 50px;
+          li {
+            a {
+              color: rgb(154, 153, 153);
+              &:first-child {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+      .menu {
+        display: none;
+        font-size: 24px;
+        a {
+          color: white;
+        }
+      }
+      .register-login {
+        .register {
+          padding: 10px 20px;
+          border: 1px solid #80bf23;
+          color: white;
+          &:hover {
+            background-color: #80bf23;
+          }
+        }
+        .login {
+         @extend %button;
+        }
+      }
+    }
+  }
+  #burger-menu {
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    height: 100%;
+    width: 40%;
+    .burger-menu {
+      padding: 50px 0;
+      .close {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        font-size: 28px;
+        color: black;
+      }
+      nav {
+        padding: 150px 0;
+        .nav-ul {
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+          li {
+            a {
+              font-size: 20px;
+              color: black;
+              &:first-child {
+                color: black;
+              }
+              &:hover {
+                color: #80bf23;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    #header-up {
+      .header-up {
+        nav {
+          ul {
+            li {
+              a {
+                .nav-text {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #header-down {
+      .header-down {
+        nav {
+          display: none;
+        }
+        .menu {
+          display: block;
+        }
+      }
+    }
+  }  
+}

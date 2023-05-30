@@ -1,0 +1,63 @@
+#choose {
+  .choose {
+    padding: 100px 0;
+    h1 {
+      text-align: center;
+      font-size: 36px;
+    }
+    .filters {
+      padding: 30px 0;
+      @include flexbox;
+      .search {
+        padding: 9px;
+        width: 400px;
+      }
+      .sort {
+        @extend %button;
+      }
+    }
+    .cards {
+      padding: 50px 0;
+      .card {
+        margin: 20px 0;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        transition: all 0.5s ease;
+        .img-title {
+          @include flexbox(center, center);
+          gap: 15px;
+          img {
+            width: 80px;
+          }
+          p {
+            font-size: 26px;
+          }
+        }
+        .buttons {
+          display: flex;
+          gap: 10px;
+          a {
+            color: black;
+          }
+        }
+        &:hover {
+          background-color: #80bf23;
+          p {
+            color: white;
+          }
+          .buttons {
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .load-more {
+      @extend %button;
+
+    }
+  }
+}

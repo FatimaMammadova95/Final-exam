@@ -1,0 +1,69 @@
+{
+  "advantages": [
+    {
+      "img": "./assets/image/airplane.png",
+      "title": "Outstanding Speed",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 250,
+      "id": 1
+    },
+    {
+      "img": "./assets/image/layer.png",
+      "title": "High Quality Hardware",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 100,
+      "id": 2
+    },
+    {
+      "img": "./assets/image/fire.png",
+      "title": "Amazing Uptime",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 399,
+      "id": 3
+    },
+    {
+      "img": "./assets/image/airplane.png",
+      "title": "Outstanding Speed",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 20,
+      "id": 4
+    },
+    {
+      "img": "./assets/image/layer.png",
+      "title": "High Quality Hardware",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 990,
+      "id": 5
+    },
+    {
+      "img": "./assets/image/fire.png",
+      "title": "Amazing Uptime",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 17,
+      "id": 6
+    },
+    {
+      "img": "./assets/image/fire.png",
+      "title": "Fatima Mammadova",
+      "content": "Imtahan yaxsi kececek",
+      "price": "777",
+      "id": 7
+    }
+  ],
+  "basket": [
+    {
+      "img": "./assets/image/layer.png",
+      "title": "High Quality Hardware",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 100,
+      "id": 2
+    },
+    {
+      "img": "./assets/image/fire.png",
+      "title": "Amazing Uptime",
+      "content": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "price": 399,
+      "id": 3
+    }
+  ]
+}

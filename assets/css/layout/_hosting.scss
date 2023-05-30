@@ -1,0 +1,33 @@
+#hosting {
+  .hosting {
+    padding: 100px 0;
+    .hosting-title {
+      font-size: 36px;
+      text-align: center;
+    }
+    .cards {
+      padding: 50px 0;
+      .card {
+        margin: 10px 0;
+        @include flexbox;
+        gap: 25px;
+        padding: 50px 30px;
+        box-shadow: 0px 0px 50px rgb(154, 153, 153);
+        i {
+          color: #80bf23;
+          font-size: 48px;
+        }
+        .heading {
+          font-size: 24px;
+          color: black;
+        }
+        p {
+          color: rgb(154, 153, 153);
+        }
+        .view {
+          @extend %button;
+        }
+      }
+    }
+  }
+}

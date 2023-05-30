@@ -1,0 +1,457 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  text-decoration: none !important;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 5%;
+  margin: auto;
+}
+
+#form .form #add, #choose .choose .load-more, #choose .choose .filters .sort, #client .opacity .client .register-now, #hosting .hosting .cards .card .view, header #header-down .header-down .register-login .login, #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .download .download {
+  padding: 10px 20px;
+  background-color: #80bf23;
+  border: 1px solid #80bf23;
+  color: white;
+}
+#form .form #add:hover, #choose .choose .load-more:hover, #choose .choose .filters .sort:hover, #client .opacity .client .register-now:hover, #hosting .hosting .cards .card .view:hover, header #header-down .header-down .register-login .login:hover, #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .download .download:hover {
+  background-color: #639517;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .background {
+  height: 80vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .background.background-1 {
+  background-image: url("../../../assets/image/hero_bg_1.jpg");
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .background.background-2 {
+  background-image: url("../../../assets/image/hero_bg_2.jpg");
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .background .opacity {
+  background-color: rgba(0, 0, 0, 0.363);
+  width: 100%;
+  height: 100%;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  top: 30%;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h1 {
+  font-size: 82px;
+  letter-spacing: 5px;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 24px;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .download {
+  padding: 50px 0;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .download .get {
+  padding: 10px 20px;
+  border: 1px solid white;
+  color: white;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .download .get:hover {
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 767px) {
+  #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 36px;
+  }
+}
+
+header #header-up .header-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header #header-up .header-up .logo {
+  font-size: 36px;
+}
+header #header-up .header-up .logo a {
+  color: black;
+}
+header #header-up .header-up nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+header #header-up .header-up nav ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: black;
+}
+header #header-up .header-up nav ul li a i {
+  font-size: 24px;
+}
+header #header-up .header-up nav ul li a .light-text {
+  color: rgb(154, 153, 153);
+  padding-bottom: 5px;
+}
+header #header-down {
+  background-color: #343a40;
+}
+header #header-down .header-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header #header-down .header-down nav .nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+header #header-down .header-down nav .nav-ul li a {
+  color: rgb(154, 153, 153);
+}
+header #header-down .header-down nav .nav-ul li a:first-child {
+  color: white;
+}
+header #header-down .header-down .menu {
+  display: none;
+  font-size: 24px;
+}
+header #header-down .header-down .menu a {
+  color: white;
+}
+header #header-down .header-down .register-login .register {
+  padding: 10px 20px;
+  border: 1px solid #80bf23;
+  color: white;
+}
+header #header-down .header-down .register-login .register:hover {
+  background-color: #80bf23;
+}
+header #burger-menu {
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  height: 100%;
+  width: 40%;
+}
+header #burger-menu .burger-menu {
+  padding: 50px 0;
+}
+header #burger-menu .burger-menu .close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 28px;
+  color: black;
+}
+header #burger-menu .burger-menu nav {
+  padding: 150px 0;
+}
+header #burger-menu .burger-menu nav .nav-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+header #burger-menu .burger-menu nav .nav-ul li a {
+  font-size: 20px;
+  color: black;
+}
+header #burger-menu .burger-menu nav .nav-ul li a:first-child {
+  color: black;
+}
+header #burger-menu .burger-menu nav .nav-ul li a:hover {
+  color: #80bf23;
+}
+@media only screen and (max-width: 991px) {
+  header #header-up .header-up nav ul li a .nav-text {
+    display: none;
+  }
+  header #header-down .header-down nav {
+    display: none;
+  }
+  header #header-down .header-down .menu {
+    display: block;
+  }
+}
+
+#hosting .hosting {
+  padding: 100px 0;
+}
+#hosting .hosting .hosting-title {
+  font-size: 36px;
+  text-align: center;
+}
+#hosting .hosting .cards {
+  padding: 50px 0;
+}
+#hosting .hosting .cards .card {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 50px 30px;
+  box-shadow: 0px 0px 50px rgb(154, 153, 153);
+}
+#hosting .hosting .cards .card i {
+  color: #80bf23;
+  font-size: 48px;
+}
+#hosting .hosting .cards .card .heading {
+  font-size: 24px;
+  color: black;
+}
+#hosting .hosting .cards .card p {
+  color: rgb(154, 153, 153);
+}
+#client {
+  background-image: url("../../../assets/image/hero_bg_3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-attachment: fixed;
+}
+#client .opacity {
+  background-color: rgba(0, 0, 0, 0.363);
+  width: 100%;
+  height: 100%;
+}
+#client .opacity .client {
+  padding: 100px 0;
+}
+#client .opacity .client h1 {
+  font-size: 72px;
+  color: white;
+}
+#client .opacity .client p {
+  font-size: 28px;
+  color: white;
+  padding: 30px 0 70px 0;
+}
+#client .opacity .client .register-now {
+  padding: 20px 40px;
+}
+
+#choose .choose {
+  padding: 100px 0;
+}
+#choose .choose h1 {
+  text-align: center;
+  font-size: 36px;
+}
+#choose .choose .filters {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#choose .choose .filters .search {
+  padding: 9px;
+  width: 400px;
+}
+#choose .choose .cards {
+  padding: 50px 0;
+}
+#choose .choose .cards .card {
+  margin: 20px 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.5s ease;
+}
+#choose .choose .cards .card .img-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+#choose .choose .cards .card .img-title img {
+  width: 80px;
+}
+#choose .choose .cards .card .img-title p {
+  font-size: 26px;
+}
+#choose .choose .cards .card .buttons {
+  display: flex;
+  gap: 10px;
+}
+#choose .choose .cards .card .buttons a {
+  color: black;
+}
+#choose .choose .cards .card:hover {
+  background-color: #80bf23;
+}
+#choose .choose .cards .card:hover p {
+  color: white;
+}
+#choose .choose .cards .card:hover .buttons a {
+  color: white;
+}
+footer {
+  background-color: #343a40;
+}
+footer .footer {
+  padding: 100px 0;
+}
+footer .footer h1 {
+  color: rgb(154, 153, 153);
+  text-align: center;
+}
+footer .footer h1 i {
+  color: red;
+}
+footer .footer h1 a {
+  color: rgb(154, 153, 153);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#form .form {
+  padding: 150px 0;
+}
+#form .form h1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 30px 0;
+}
+#form .form #content {
+  width: 100%;
+}
+#basket .basket {
+  padding: 150px 0;
+}
+#basket .basket h1 {
+  text-align: center;
+  font-size: 36px;
+}
+#basket .basket .cards {
+  padding: 50px 0;
+}
+#basket .basket .cards .card {
+  margin: 10px 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.5s ease;
+}
+#basket .basket .cards .card .img-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+#basket .basket .cards .card .img-title img {
+  width: 80px;
+}
+#basket .basket .cards .card .img-title p {
+  font-size: 26px;
+}
+#basket .basket .cards .card .buttons {
+  display: flex;
+  gap: 10px;
+}
+#basket .basket .cards .card .buttons a {
+  color: black;
+}
+#basket .basket .cards .card:hover {
+  background-color: #80bf23;
+}
+#basket .basket .cards .card:hover p {
+  color: white;
+}
+#basket .basket .cards .card:hover .buttons a {
+  color: white;
+}
+
+#details .details {
+  padding: 100px 0;
+}
+#details .details h1 {
+  text-align: center;
+  font-size: 36px;
+  padding: 30px 0;
+}
+#details .details .card-row img {
+  width: 100%;
+}
+#details .details .card-row .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+#details .details .card-row .text span {
+  font-weight: bold;
+}
+#details .details .card-row .text h2 {
+  font-size: 28px;
+}
+#details .details .card-row .text h3 {
+  font-size: 22px;
+}
+#details .details .card-row .text h4 {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
